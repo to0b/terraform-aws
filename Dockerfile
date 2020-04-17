@@ -6,6 +6,7 @@ RUN apk add --no-cache \
 	jq \
         git \
         openssh \
+        yarn \
  && pip install --upgrade \
         pip \
         awscli
