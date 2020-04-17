@@ -4,6 +4,7 @@ RUN apk add --no-cache \
         bash \
         py-pip \
 	jq \
+        git \
  && pip install --upgrade \
         pip \
         awscli
