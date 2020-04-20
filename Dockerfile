@@ -13,6 +13,7 @@ RUN apk add --no-cache \
         pip \
         awscli \
         jinja2 \
+        yaml \
         pyyaml
 
 
