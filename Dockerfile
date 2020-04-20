@@ -11,7 +11,9 @@ RUN apk add --no-cache \
         curl \
  && pip install --upgrade \
         pip \
-        awscli
+        awscli \
+        jinja2 \
+        pyyaml
 
 
 ENTRYPOINT ["/bin/bash"]
