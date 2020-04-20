@@ -8,6 +8,7 @@ RUN apk add --no-cache \
         openssh \
         yarn \
         python3 \
+        curl \
  && pip install --upgrade \
         pip \
         awscli
