@@ -7,7 +7,7 @@ RUN apk add --no-cache \
         git \
         openssh \
         yarn \
-        python3 \
+        python3.6 \
         curl \
  && pip install --upgrade \
         pip \
