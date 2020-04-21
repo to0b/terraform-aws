@@ -7,13 +7,14 @@ RUN apk add --no-cache \
         git \
         openssh \
         yarn \
-        python3.6 \
+        python3 \
         curl \
- && pip install --upgrade \
+ && pip3.8 install --upgrade \
         pip \
         awscli \
         jinja2 \
-        pyyaml
+        pyyaml \
+        pathlib
 
 
 ENTRYPOINT ["/bin/bash"]
