@@ -17,5 +17,7 @@ RUN apk add --no-cache \
         pyyaml \
         pathlib
 
+RUN apk add --update bash wget ca-certificates openssl git tar
+
 
 ENTRYPOINT ["/bin/bash"]
