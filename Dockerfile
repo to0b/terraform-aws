@@ -6,6 +6,7 @@ RUN apk add --no-cache \
 	jq \
         git \
         openssh \
+        openssh-client \
         yarn \
         python3 \
         curl \
