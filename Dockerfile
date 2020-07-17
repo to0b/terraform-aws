@@ -19,5 +19,6 @@ RUN apk add --no-cache \
 
 RUN apk add --update bash wget ca-certificates openssl git tar
 
-
+COPY convert_report /bin/convert_report
+RUN chmod +x /bin/convert_report
 ENTRYPOINT ["/bin/bash"]
