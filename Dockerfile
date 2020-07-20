@@ -17,6 +17,5 @@ RUN apk add --no-cache \
         pyyaml \
         pathlib
 
-COPY convert_report /bin/convert_report
 RUN chmod +x /bin/convert_report
 ENTRYPOINT ["/bin/bash"]
